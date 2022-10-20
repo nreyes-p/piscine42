@@ -6,7 +6,7 @@
 /*   By: nreyes-p <nreyes-p@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 14:28:23 by nreyes-p          #+#    #+#             */
-/*   Updated: 2022/10/20 14:28:29 by nreyes-p         ###   ########.fr       */
+/*   Updated: 2022/10/20 20:41:47 by nreyes-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,4 @@ void	ft_print_reverse_alphabet(void)
 		ft_putchar(letter);
 		letter--;
 	}
-}
-
-int	main(void)
-{
-	ft_print_reverse_alphabet();
 }

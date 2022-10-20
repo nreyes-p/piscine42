@@ -6,7 +6,7 @@
 /*   By: nreyes-p <nreyes-p@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 14:25:58 by nreyes-p          #+#    #+#             */
-/*   Updated: 2022/10/20 14:26:21 by nreyes-p         ###   ########.fr       */
+/*   Updated: 2022/10/20 20:27:34 by nreyes-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,4 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-}
-
-int	main(void)
-{
-	ft_putchar('R');
 }

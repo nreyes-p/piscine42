@@ -6,7 +6,7 @@
 /*   By: nreyes-p <nreyes-p@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 14:29:10 by nreyes-p          #+#    #+#             */
-/*   Updated: 2022/10/20 14:29:15 by nreyes-p         ###   ########.fr       */
+/*   Updated: 2022/10/20 20:46:25 by nreyes-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,4 @@ void	ft_print_numbers(void)
 		ft_putchar(number);
 		number++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_numbers();
 }

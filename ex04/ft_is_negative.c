@@ -6,7 +6,7 @@
 /*   By: nreyes-p <nreyes-p@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 14:29:59 by nreyes-p          #+#    #+#             */
-/*   Updated: 2022/10/20 14:30:04 by nreyes-p         ###   ########.fr       */
+/*   Updated: 2022/10/20 20:48:38 by nreyes-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,4 @@ void	ft_is_negative(int n)
 	{
 		ft_putchar('P');
 	}
-}
-
-int	main(void)
-{
-	ft_is_negative(1);
-	ft_is_negative(0);
-	ft_is_negative(-1);
 }
